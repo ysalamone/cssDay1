@@ -5,8 +5,8 @@ body {
     background-color: #e0e0e0;
     color: #424242;
     font-family: 'RobotoDraft', 'Helvetica Neue', Helvetica, Arial;
-    /*font-size: 1em;*/
-    /*line-height: 1.6;*/
+    font-size: 1em;
+    line-height: 1.6;
 }
 
 .container {
@@ -51,4 +51,44 @@ header {
 .menu a:hover {
     background: #37474f;
     color: #fff;
+}
+
+/*.region-top {
+    height: 544px;
+    overflow: hidden;
+}*/
+
+.region-top, .region-top a {
+    text-decoration: none;
+    color: white;
+}
+
+.region-top article {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.region-top article div {
+    /*bottom: 40px;
+    left: 40px;*/
+    padding: 2em;
+    /*width: 300px;*/
+}
+
+.region-top article h1 {
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+.cat-orange {
+    background-color: #ff7043;
+}
+
+.cat-rouge {
+    background-color: #c62828;
+}
+
+.cat-violet {
+    background-color: #5c6bc0;
 }
