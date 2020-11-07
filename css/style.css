@@ -155,9 +155,11 @@ footer {
         align-items: stretch;
         justify-content: space-between;
     }
+
     .menu {
         width: initial;
     }
+
     .menu a {
         padding: 0 1.5em;
     }
@@ -171,33 +173,41 @@ footer {
     .region-top {
         display: flex;
     }
+
     article {
         margin: 0;
     }
+
     .article-left {
         width: 66%;
     }
+
     .article-right {
         width: 34%;
     }
+
     .article-left article {
         height: 100%;
         position: relative;
     }
+
     .article-left img {
         height: inherit;
         object-fit: cover;
     }
+
     .article-left div {
         position: absolute;
         bottom: 40px;
         left: 40px;
         width: 300px;
     }
+
     .article-right div {
         padding: 0.5em 1.5em 1.5em 1.5em;
         font-size: 0.9em;
     }
+
     .article-right h1 {
         font-size: inherit;
     }
@@ -206,14 +216,17 @@ footer {
     .region-main {
         width: 66%;
     }
+
     .region-main article {
         flex-direction: row;
         align-items: center;
         margin-bottom: 2em;
     }
+
     .region-main article img {
         width: 200px;
     }
+
     .region-main article div {
         padding: 0 1em;
     }
@@ -223,17 +236,21 @@ footer {
         width: 34%;
         box-sizing: border-box;
     }
+
     .region-sidebar form div {
         flex-direction: column;
         align-items: flex-start;
     }
+
     .region-sidebar label {
         width: initial;
     }
+
     .region-sidebar input {
         min-height: initial;
         width: 100%;
     }
+
     .region-sidebar input[type=submit] {
         flex-grow: initial;
         margin: auto;
@@ -246,16 +263,20 @@ footer {
     .region-sidebar h1 {
         margin-bottom: 10px;
     }
+
     .region-sidebar form div {
         flex-direction: row;
         margin: 0;
     }
+
     .region-sidebar label {
         width: 100%;
     }
+
     .region-sidebar input {
         width: initial;
     }
+
     .region-sidebar input[type=submit] {
         margin-top: 10px;
     }
