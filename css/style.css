@@ -101,3 +101,38 @@ article h1 {
     text-decoration: none;
     color: #1875d1;
 }
+
+.region-sidebar {
+    padding: 2em;
+    background-color: #f5f5f5;
+    color: #666;
+}
+
+.region-sidebar h1 {
+    font-weight: bold;
+}
+
+.region-sidebar form div {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.region-sidebar label {
+    width: 6em;
+    display: inline-block;
+}
+
+.region-sidebar input {
+    min-height: 2em;
+    flex-grow: 1;
+}
+
+.region-sidebar input[type=submit] {
+    background-color: #5677fc;
+    border-radius: 2px;
+    padding: .75em;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    color: white;
+}
