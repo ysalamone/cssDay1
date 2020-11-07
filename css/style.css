@@ -215,7 +215,7 @@ footer {
         width: 200px;
     }
     .region-main article div {
-        padding: 0 20px;
+        padding: 0 1em;
     }
 
     /* disposition de region-sidebar et du formulaire */
