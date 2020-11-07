@@ -28,15 +28,18 @@ header {
 
 .menu ul {
     display: flex;
+    height: 100%;
 }
 
 .menu li {
     flex-grow: 1;
-    text-align: center;
 }
 
 .menu a {
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
     line-height: 3;
     text-decoration: none;
     color: #37474f;
@@ -130,4 +133,23 @@ article h1 {
 footer {
     background-color: #000;
     height: 50px;
+}
+
+/* media query desktop */
+@media screen and (min-width: 768px) {
+
+    /* passage du header à l'horizontale */
+    header {
+        flex-direction: row;
+        align-items: stretch;
+        justify-content: space-between;
+    }
+    .menu {
+        width: initial;
+    }
+    .menu a {
+        padding: 0 1.5em;
+    }
+
+
 }
