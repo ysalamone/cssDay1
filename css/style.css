@@ -58,25 +58,29 @@ header {
     overflow: hidden;
 }*/
 
-.region-top, .region-top a {
-    text-decoration: none;
-    color: white;
+.region {
+    margin-bottom: 4em;
 }
 
-.region-top article {
+.region-top, .region-top a {
+    text-decoration: none;
+    color: #fff;
+}
+
+article {
     display: flex;
     flex-direction: column;
     margin-bottom: 20px;
 }
 
-.region-top article div {
+article div {
     /*bottom: 40px;
     left: 40px;*/
     padding: 2em;
     /*width: 300px;*/
 }
 
-.region-top article h1 {
+article h1 {
     font-size: 1.4em;
     font-weight: bold;
 }
@@ -91,4 +95,9 @@ header {
 
 .cat-violet {
     background-color: #5c6bc0;
+}
+
+.region-main a {
+    text-decoration: none;
+    color: #1875d1;
 }
