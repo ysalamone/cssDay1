@@ -113,7 +113,7 @@ article h1 {
 }
 
 .region-sidebar input {
-    min-height: 2em;
+    min-height: 44px;
     flex-grow: 1;
 }
 
