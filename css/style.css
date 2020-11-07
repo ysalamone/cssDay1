@@ -138,6 +138,12 @@ footer {
 /* media query desktop */
 @media screen and (min-width: 768px) {
 
+    /* taille maximale du container, centré */
+    .container {
+        max-width: 960px;
+        margin: 0 auto;
+    }
+
     /* passage du header à l'horizontale */
     header {
         flex-direction: row;
@@ -151,5 +157,39 @@ footer {
         padding: 0 1.5em;
     }
 
+    /* disposition de region-top */
+    .region-top {
+        display: flex;
+    }
+    article {
+        margin: 0;
+    }
+    .article-left {
+        width: 67%;
+    }
+    .article-right {
+        width: 33%;
+    }
+    .article-left article {
+        height: 100%;
+        position: relative;
+    }
+    .article-left img {
+        height: inherit;
+        object-fit: cover;
+    }
+    .article-left div {
+        position: absolute;
+        bottom: 40px;
+        left: 40px;
+        width: 300px;
+    }
+    .article-right div {
+        padding: 0.5em 1.5em 1.5em 1.5em;
+        font-size: 0.9em;
+    }
+    .article-right h1 {
+        font-size: inherit;
+    }
 
 }
