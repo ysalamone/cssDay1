@@ -126,6 +126,7 @@ article h1 {
 .region-sidebar input {
     min-height: 2em;
     flex-grow: 1;
+    -webkit-appearance: none;
 }
 
 .region-sidebar input[type=submit] {
