@@ -9,11 +9,6 @@ body {
     line-height: 1.6;
 }
 
-.container {
-    /*width: 960px;*/
-    margin: auto;
-}
-
 header {
     background-color: #fff;
     display: flex;
@@ -53,20 +48,12 @@ header {
     color: #fff;
 }
 
-/*.region-top {
-    height: 544px;
-    overflow: hidden;
-}*/
-
+/* classe générique pour toutes les régions du site */
 .region {
     margin-bottom: 4em;
 }
 
-.region-top, .region-top a {
-    text-decoration: none;
-    color: #fff;
-}
-
+/* tous les articles sont identiques en mobile */
 article {
     display: flex;
     flex-direction: column;
@@ -74,15 +61,17 @@ article {
 }
 
 article div {
-    /*bottom: 40px;
-    left: 40px;*/
     padding: 2em;
-    /*width: 300px;*/
 }
 
 article h1 {
     font-size: 1.4em;
     font-weight: bold;
+}
+
+.region-top, .region-top a {
+    text-decoration: none;
+    color: #fff;
 }
 
 .cat-orange {
