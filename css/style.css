@@ -128,10 +128,11 @@ article h1 {
 .region-sidebar input[type=submit] {
     background-color: #5677fc;
     border-radius: 2px;
-    padding: .75em;
+    padding: .5em 1em;
     text-transform: uppercase;
     border: 1px solid transparent;
     color: white;
+    font-size: .9em;
     -webkit-appearance: none;
 }
 
@@ -204,8 +205,8 @@ footer {
     }
 
     .article-right div {
-        padding: 0.5em 1.5em 1.5em 1.5em;
-        font-size: 0.9em;
+        padding: .5em 1.5em 1.5em 1.5em;
+        font-size: .9em;
     }
 
     .article-right h1 {
