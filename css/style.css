@@ -126,7 +126,6 @@ article h1 {
 .region-sidebar input {
     min-height: 2em;
     flex-grow: 1;
-    -webkit-appearance: none;
 }
 
 .region-sidebar input[type=submit] {
@@ -136,6 +135,7 @@ article h1 {
     text-transform: uppercase;
     border: 1px solid transparent;
     color: white;
+    -webkit-appearance: none;
 }
 
 footer {
