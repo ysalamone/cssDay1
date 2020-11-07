@@ -136,3 +136,8 @@ article h1 {
     border: 1px solid transparent;
     color: white;
 }
+
+footer {
+    background-color: #000;
+    height: 50px;
+}
