@@ -243,13 +243,20 @@ footer {
 
 /* media query grand écran - uniquement pour le formulaire */
 @media screen and (min-width: 960px) {
+    .region-sidebar h1 {
+        margin-bottom: 10px;
+    }
     .region-sidebar form div {
         flex-direction: row;
+        margin: 0;
     }
     .region-sidebar label {
         width: 100%;
     }
     .region-sidebar input {
         width: initial;
+    }
+    .region-sidebar input[type=submit] {
+        margin-top: 10px;
     }
 }
