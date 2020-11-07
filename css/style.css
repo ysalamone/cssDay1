@@ -51,9 +51,10 @@ header {
     color: #fff;
 }
 
-/* classe générique pour toutes les régions du site */
-.region {
-    margin-bottom: 4em;
+/* affichés en colonne en mobile, en ligne en desktop */
+.bloc {
+    display: flex;
+    flex-direction: column;
 }
 
 /* tous les articles sont identiques en mobile */
@@ -87,6 +88,10 @@ article h1 {
 
 .cat-violet {
     background-color: #5c6bc0;
+}
+
+.region-main {
+    margin-top: 2em;
 }
 
 .region-main a {
@@ -157,7 +162,12 @@ footer {
         padding: 0 1.5em;
     }
 
-    /* disposition de region-top */
+    /* affichés en colonne en mobile, en ligne en desktop */
+    .bloc {
+        flex-direction: row;
+    }
+
+    /* disposition de region-top et de ses articles */
     .region-top {
         display: flex;
     }
@@ -165,10 +175,10 @@ footer {
         margin: 0;
     }
     .article-left {
-        width: 67%;
+        width: 66%;
     }
     .article-right {
-        width: 33%;
+        width: 34%;
     }
     .article-left article {
         height: 100%;
@@ -192,4 +202,54 @@ footer {
         font-size: inherit;
     }
 
+    /* disposition de region-main et de ses articles */
+    .region-main {
+        width: 66%;
+    }
+    .region-main article {
+        flex-direction: row;
+        align-items: center;
+        margin-bottom: 2em;
+    }
+    .region-main article img {
+        width: 200px;
+    }
+    .region-main article div {
+        padding: 0 20px;
+    }
+
+    /* disposition de region-sidebar et du formulaire */
+    .region-sidebar {
+        width: 34%;
+        box-sizing: border-box;
+    }
+    .region-sidebar form div {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .region-sidebar label {
+        width: initial;
+    }
+    .region-sidebar input {
+        min-height: initial;
+        width: 100%;
+    }
+    .region-sidebar input[type=submit] {
+        flex-grow: initial;
+        margin: auto;
+        width: initial;
+    }
+}
+
+/* media query grand écran - uniquement pour le formulaire */
+@media screen and (min-width: 960px) {
+    .region-sidebar form div {
+        flex-direction: row;
+    }
+    .region-sidebar label {
+        width: 100%;
+    }
+    .region-sidebar input {
+        width: initial;
+    }
 }
